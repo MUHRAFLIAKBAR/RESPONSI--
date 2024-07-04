@@ -14,13 +14,13 @@
             <div class="card">
               <div class="card-body">
                 <div class="d-flex flex-column align-items-center text-center">
-                  <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Admin" class="rounded-circle" width="150">
+                  <img src="assets\img\slide1.jpeg" alt="Admin" class="rounded-circle" width="200">
                   <div class="mt-3">
-                    <h4>Habibur Rohman</h4>
+                    <h4>MUHAMMAD RAFLI AKBAR</h4>
                     <p class="text-secondary mb-1">Full Stack Developer</p>
                     <p class="text-muted font-size-sm">Bay Area, San Francisco, CA</p>
-                    <button class="btn btn-primary">Follow</button>
-                    <a href="mailto:habiburrohman2students.amikom.ac.id" class="btn btn-outline-primary">Message</a>
+                    <a href="https://www.instagram.com/iflix.10" class="btn btn-primary">Follow</a>
+                    <a href="mailto:akbarrfl19@students.amikom.ac.id" class="btn btn-outline-primary">Message</a>
                   </div>
                 </div>
               </div>
@@ -37,25 +37,25 @@
                   <h6 class="mb-0">
                     <i class="fab fa-github mr-2 icon-inline"></i>Github
                   </h6>
-                  <span class="text-secondary">bootdey</span>
+                  <span class="text-secondary">@akbarrfl19students.amikom.ac.id</span>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                   <h6 class="mb-0">
                     <i class="fab fa-twitter mr-2 icon-inline text-info"></i>Twitter
                   </h6>
-                  <span class="text-secondary">@bootdey</span>
+                  <span class="text-secondary">---</span>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                   <h6 class="mb-0">
                     <i class="fab fa-instagram mr-2 icon-inline text-danger"></i>Instagram
                   </h6>
-                  <span class="text-secondary">bootdey</span>
+                  <span class="text-secondary">iflix.10</span>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                   <h6 class="mb-0">
                     <i class="fab fa-facebook mr-2 icon-inline text-primary"></i>Facebook
                   </h6>
-                  <span class="text-secondary">bootdey</span>
+                  <span class="text-secondary">iflix</span>
                 </li>
               </ul>
             </div>
@@ -68,7 +68,7 @@
                     <h6 class="mb-0">Full Name</h6>
                   </div>
                   <div class="col-sm-9 text-secondary">
-                    Habibur Rohman
+                    MUH RAFLI AKBAR
                   </div>
                 </div>
                 <hr>
@@ -77,7 +77,7 @@
                     <h6 class="mb-0">Email</h6>
                   </div>
                   <div class="col-sm-9 text-secondary">
-                    habiburrohman2students.amikom.ac.id
+                    akbarrfl19@students.amikom.ac.id
                   </div>
                 </div>
                 <hr>
@@ -170,6 +170,7 @@
       </div>
     </div>
   </section>
+  
 </template>
 
 <script>
@@ -182,7 +183,8 @@ export default {
 .hero {
   text-align: center;
   padding: 100px 0;
-  background: #f5f5f5;
+  background: url('slide1.jpeg') no-repeat center center;
+  background-size: cover;
 }
 
 .header {
@@ -198,6 +200,11 @@ export default {
 .header p {
   font-size: 1.25rem;
   color: #777;
+}
+
+.card-body {
+  background-size: cover;
+  color: rgb(0, 0, 0); /* Adjust text color for contrast */
 }
 
 .card {
