@@ -183,8 +183,7 @@ export default {
 .hero {
   text-align: center;
   padding: 100px 0;
-  background: url('slide1.jpeg') no-repeat center center;
-  background-size: cover;
+  background: linear-gradient(45deg, #1E1E1E, #0019f7);
 }
 
 .header {
@@ -194,7 +193,7 @@ export default {
 
 .header h1 {
   font-size: 2.5rem;
-  color: #333;
+  color: #ffffff;
 }
 
 .header p {
