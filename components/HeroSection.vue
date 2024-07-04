@@ -14,7 +14,7 @@
             <div class="card">
               <div class="card-body">
                 <div class="d-flex flex-column align-items-center text-center">
-                  <img src="assets\img\slide1.jpeg" alt="Admin" class="rounded-circle" width="200">
+                  <img src="assets\img\slide1.jpeg"alt="Profile Picture" class="profile-pic" >
                   <div class="mt-3">
                     <h4>MUHAMMAD RAFLI AKBAR</h4>
                     <p class="text-secondary mb-1">Full Stack Developer</p>
@@ -183,9 +183,15 @@ export default {
 .hero {
   text-align: center;
   padding: 100px 0;
-  background: linear-gradient(45deg, #1E1E1E, #0019f7);
+  background: linear-gradient(180deg, #1E1E1E, #0019f7);
 }
-
+.profile-pic {
+  width: 300px;
+  height: 150px;
+  border-radius: 15px; /* Mengatur sudut melengkung */
+  object-fit: cover;
+  margin-bottom: 20px;
+}
 .header {
   text-align: center;
   margin-bottom: 50px;
